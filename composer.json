@@ -8,6 +8,13 @@
             "LoginInfo\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LoginInfo\\loginInfoServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Zahid Hasan",
