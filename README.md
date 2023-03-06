@@ -6,6 +6,11 @@
 
 ##This will help you to save user's login information in database
 
+## System Architecture
+
+- Laravel Version 10.x
+- php 8.1
+
 ## Features
 - Keep tracking users activity .
 - Users's IP address will be saved. 
