@@ -29,12 +29,12 @@ class LoginInfoController extends Controller
         {
             $ip_address = $_SERVER['REMOTE_ADDR'];
         }
-//        $user = config('loginInfo');
-        $user_update = User::findOrFail($id);
-        $user_update->current_status = "Active";
-        $user_update->last_login_at = $datetime;
-        $user_update->last_login_ip = $ip_address;
-        $user_update->save();
-        return back();
+        if($id){
+            $user_update = User::findOrFail($id);
+            $user_update->current_status = "Active";
+            $user_update->last_login_at = $datetime;
+            $user_update->last_login_ip = $ip_address;
+            $user_update->save();
+        }
     }
 }
