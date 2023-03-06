@@ -2,7 +2,7 @@
     "name": "zahid/logininfo",
     "description": "This will help you to save user's login information.",
     "type": "library",
-    "license": "Zahid",
+    "license": "Zahid566",
     "autoload": {
         "psr-4": {
             "LoginInfo\\": "src/"
@@ -17,7 +17,7 @@
     },
     "authors": [
         {
-            "name": "Zahid Hasan566",
+            "name": "Md Zahid Hasan",
             "email": "jahid1234.jh@gmail.com"
         }
     ],
