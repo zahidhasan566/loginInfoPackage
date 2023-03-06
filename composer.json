@@ -1,0 +1,19 @@
+{
+    "name": "zahid/logininfo",
+    "description": "This will help you to save user's login information.",
+    "type": "library",
+    "license": "Zahid",
+    "autoload": {
+        "psr-4": {
+            "LoginInfo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zahid Hasan",
+            "email": "jahid1234.jh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
