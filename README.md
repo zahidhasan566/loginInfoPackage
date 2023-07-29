@@ -21,7 +21,7 @@
 ## Installation
 
 ```
-composer require zahid566/logininfo
+composer require zahid566/logininfo:dev-main
 ```
 
 Migration: After successfully installing the package, migration file need to be run .
